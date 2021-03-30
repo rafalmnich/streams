@@ -111,9 +111,9 @@ func (m *monitor) runFlush() {
 
 	for cache := range m.flushCh {
 		for _, event := range cache {
+			tags := []interface{}{"name", event.Name}
 			switch event.EventType {
 			case "node":
-				tags := []interface{}{"name", event.Name}
 				m.stats.Timing("node.latency", time.Duration(int64(event.Latency)/event.Count), tags...)
 				m.stats.Inc("node.throughput", event.Count, tags...)
 				if event.BackPressure >= 0 {
@@ -122,7 +122,7 @@ func (m *monitor) runFlush() {
 
 			case "commit":
 				m.stats.Timing("commit.latency", time.Duration(int64(event.Latency)/event.Count))
-				m.stats.Inc("commit.commits", event.Count, 1)
+				m.stats.Inc("commit.commits", event.Count, tags...)
 			}
 		}
 
