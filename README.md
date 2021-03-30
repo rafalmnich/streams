@@ -1,10 +1,10 @@
 # Streams
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/msales/streams)](https://goreportcard.com/report/github.com/msales/streams)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rafalmnich/streams)](https://goreportcard.com/report/github.com/rafalmnich/streams)
 [![Build Status](https://travis-ci.org/msales/streams.svg?branch=master)](https://travis-ci.org/msales/streams)
 [![Coverage Status](https://coveralls.io/repos/github/msales/streams/badge.svg?branch=master)](https://coveralls.io/github/msales/streams?branch=master)
-[![GoDoc](https://godoc.org/github.com/msales/streams?status.svg)](https://godoc.org/github.com/msales/streams)
-[![GitHub release](https://img.shields.io/github/release/msales/streams.svg)](https://github.com/msales/streams/releases)
+[![GoDoc](https://godoc.org/github.com/rafalmnich/streams?status.svg)](https://godoc.org/github.com/rafalmnich/streams)
+[![GitHub release](https://img.shields.io/github/release/msales/streams.svg)](https://github.com/rafalmnich/streams/releases)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/msales/streams/master/LICENSE)
 
 Streams is a light weight, simple stream processing library. While Kafka is the main use case for Streams, it is
@@ -16,7 +16,7 @@ flexible enough to be used for any form of processing from any source.
 You can install streams using `go get`
 
 ```shell
-go get github.com/msales/streams
+go get github.com/rafalmnich/streams
 ```
 
 ## Concepts

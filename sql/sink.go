@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/msales/streams/v6"
+	"github.com/rafalmnich/streams/v6"
 )
 
 // Transaction represents a SQL transaction handler.
