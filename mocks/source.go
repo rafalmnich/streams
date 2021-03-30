@@ -3,7 +3,7 @@ package mocks
 import (
 	"time"
 
-	"github.com/msales/streams/v6"
+	"github.com/rafalmnich/streams/v6"
 )
 
 var _ streams.Source = (*Source)(nil)
