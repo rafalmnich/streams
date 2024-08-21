@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/IBM/sarama"
-	"github.com/rafalmnich/streams/v6"
+	"github.com/futurehomeno/streams/v6"
 )
 
 // SinkConfig represents the configuration of a Sink.
