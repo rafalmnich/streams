@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/Shopify/sarama"
+	"github.com/IBM/sarama"
 	"github.com/rafalmnich/streams/v6"
 	"github.com/rafalmnich/streams/v6/kafka"
 )
