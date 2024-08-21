@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/rafalmnich/streams/v6"
+	"github.com/futurehomeno/streams"
 )
 
 // Transaction represents a SQL transaction handler.
@@ -87,7 +87,7 @@ func (p *Sink) Process(msg streams.Message) error {
 	return p.pipe.Mark(msg)
 }
 
-//Commit commits a processors batch.
+// Commit commits a processors batch.
 func (p *Sink) Commit(ctx context.Context) error {
 	p.count = 0
 

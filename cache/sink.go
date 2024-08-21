@@ -3,8 +3,8 @@ package cache
 import (
 	"time"
 
+	"github.com/futurehomeno/streams"
 	"github.com/msales/pkg/v4/cache"
-	"github.com/rafalmnich/streams/v6"
 )
 
 // Sink represents a Cache streams sink.

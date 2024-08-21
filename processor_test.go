@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/rafalmnich/streams/v6"
-	"github.com/rafalmnich/streams/v6/mocks"
+	"github.com/futurehomeno/streams"
+	"github.com/futurehomeno/streams/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

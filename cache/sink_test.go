@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/futurehomeno/streams"
+	"github.com/futurehomeno/streams/cache"
+	"github.com/futurehomeno/streams/mocks"
 	cache2 "github.com/msales/pkg/v4/cache"
-	"github.com/rafalmnich/streams/v6"
-	"github.com/rafalmnich/streams/v6/cache"
-	"github.com/rafalmnich/streams/v6/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

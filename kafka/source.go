@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/IBM/sarama"
-	"github.com/rafalmnich/streams/v6"
+	"github.com/futurehomeno/streams"
 	"golang.org/x/xerrors"
 )
 

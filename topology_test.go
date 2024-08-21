@@ -3,7 +3,7 @@ package streams_test
 import (
 	"testing"
 
-	"github.com/rafalmnich/streams/v6"
+	"github.com/futurehomeno/streams"
 	"github.com/stretchr/testify/assert"
 )
 

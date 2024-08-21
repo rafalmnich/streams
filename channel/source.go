@@ -3,7 +3,7 @@ package channel
 import (
 	"time"
 
-	"github.com/rafalmnich/streams/v6"
+	"github.com/futurehomeno/streams"
 )
 
 // Compile-time interface check.
