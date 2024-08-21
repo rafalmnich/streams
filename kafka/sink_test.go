@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/IBM/sarama"
-	"github.com/rafalmnich/streams/v6"
-	"github.com/rafalmnich/streams/v6/kafka"
-	"github.com/rafalmnich/streams/v6/mocks"
+	"github.com/futurehomeno/streams/v6"
+	"github.com/futurehomeno/streams/v6/kafka"
+	"github.com/futurehomeno/streams/v6/mocks"
 	"github.com/stretchr/testify/assert"
 )
 
