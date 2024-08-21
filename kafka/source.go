@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Shopify/sarama"
+	"github.com/IBM/sarama"
 	"github.com/rafalmnich/streams/v6"
 	"golang.org/x/xerrors"
 )
